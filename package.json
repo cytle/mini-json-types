@@ -1,7 +1,7 @@
 {
-  "name": "miniapp-json-types",
+  "name": "mini-json-types",
   "version": "0.0.1",
-  "description": "miniapp-json-types",
+  "description": "mini-json-types",
   "main": "src/index.d.js",
   "keywords": [
     "miniapp",
@@ -20,6 +20,7 @@
     "jest": "~26.4.2",
     "prettier": "~2.0.5",
     "ts-jest": "~26.2.0",
+    "tslib": "^2.0.1",
     "tsutils": "~3.17.0",
     "typescript": "~4.0.2",
     "typescript-json-schema": "^0.46.0"
@@ -27,9 +28,11 @@
   "scripts": {
     "build": "node scripts/buildJSON.js"
   },
+  "homepage": "https://github.com/cytle/mini-json-types",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cytle/mini-json-types.git"
+  },
   "author": "Wuma <canyoutle@gmail.com>",
-  "license": "Apache-2.0",
-  "dependencies": {
-    "tslib": "^2.0.1"
-  }
+  "license": "Apache-2.0"
 }

@@ -1,5 +1,3 @@
-import { WindowJSON, TabBarJSON } from './types';
-
 /**
  * 组件配置
  * 在 [componentName].json 中声明自定义组件。如果该自定义组件还依赖了其它组件，则还需要额外声明依赖哪些自定义组件。

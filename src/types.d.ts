@@ -27,7 +27,8 @@ export interface WindowJSON {
    */
   pullRefresh?: boolean;
 
-  /** 是否允许向下拉拽。
+  /**
+   * 是否允许向下拉拽。
    * @default "YES"
    */
   allowsBounceVertical?: YesOrNo;

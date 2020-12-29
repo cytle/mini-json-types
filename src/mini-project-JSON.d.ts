@@ -1,11 +1,10 @@
 import { PathString } from './types';
 
 export type CompileType =
-/** 当前为普通小程序项目。 */
+/** 普通小程序项目。 */
 'miniprogram' |
-/** 当前为小程序插件项目。 */
+/** 小程序插件项目。 */
 'plugin';
-
 
 /**
  * 小程序项目配置
@@ -13,8 +12,13 @@ export type CompileType =
  * @see https://opendocs.alipay.com/mini/01iols
  */
 export interface MiniProjectJSON {
-  /** 编译类型，参见下表。 */
-  compileType?: string;
+  /**
+   * 编译类型
+   *
+   * - miniprogram: 普通小程序项目
+   * - plugin: 小程序插件项目
+   */
+  compileType?: CompileType;
 
   /** 指定小程序源码的相对路径（ app.json 文件所在目录）。 */
   miniprogramRoot?: PathString;
