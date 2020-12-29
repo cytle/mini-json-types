@@ -20,6 +20,7 @@
     "strictNullChecks": false
   },
   "include": [
+    "scripts/**/*",
     "src/**/*",
     "__tests__/**/*"
   ]

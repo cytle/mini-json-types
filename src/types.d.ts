@@ -1,5 +1,6 @@
 export type HexColor = string;
 export type YesOrNo = 'YES' | 'NO';
+export type PathString = string;
 
 /**
  * `window` 用于设置小程序的状态栏、导航条、标题、窗口背景色等。
